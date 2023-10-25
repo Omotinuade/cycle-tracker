@@ -1,0 +1,36 @@
+.main {
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+.second-main {
+	width: 100%;
+	height: 100%;
+	background-image: url("../../assets/images/backg.svg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+}
+.third-main {
+	height: 50px;
+	font-size: 50px;
+	display: block;
+}
+#btn {
+	width: 150px;
+	height: 50px;
+	background-color: #e74646;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#btn:hover {
+	width: 150px;
+	height: 50px;
+	background-color: cornflowerblue;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
